@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  argocd/app-name: ten-nine
+  janus-idp.io/tekton: ten-nine
+  backstage.io/kubernetes-id: ten-nine
+  backstage.io/kubernetes-namespace: rhtap-app 
+  app.kubernetes.io/part-of: ten-nine
+resources:
+- deployment.yaml
+- route.yaml
+- service.yaml
