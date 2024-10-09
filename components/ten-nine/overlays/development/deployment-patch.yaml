@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/chr1st1an-org/ten-nine:97fe4aac28ad93ca7bb3ce9dc65700175bbc70d5@sha256:aab3c191c2328a1e2b61f69f1f3e1f9958201f495b1e404b25a58437230ea62e
+        - image: quay.io/chr1st1an-org/ten-nine:d7ff6b848abe48cd7f58e1159c282e1bcd3460b2@sha256:a4cc31400b4bc3830fc257a869932e49aa60694c18c2b1c8f885afda15d1b1a0
           name: container-image
